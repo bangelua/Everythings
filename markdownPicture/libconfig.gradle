@@ -1,0 +1,23 @@
+
+ext {
+  depsVersion = [
+    supportV7_androidx: '1.1.0',
+    design_androidx: '1.1.0',
+    recyclerview_androidx: '1.1.0',
+    butterknife: '10.2.1',
+    kotlin: '1.3.72',
+    uilib: '2.38.0'
+  ]
+  depsLibs = [
+    design_androidx: "com.google.android.material:material:${depsVersion.design_androidx}",
+    recyclerview_androidx: "androidx.recyclerview:recyclerview:${depsVersion.recyclerview_androidx}",
+    supportV7_androidx: "androidx.appcompat:appcompat:${depsVersion.supportV7_androidx}",
+    gson: "com.google.code.gson:gson:${depsVersion.gson}",
+    butterknife: "com.jakewharton:butterknife:${depsVersion.butterknife}",
+    butterknife_compiler: "com.jakewharton:butterknife-compiler:${depsVersion.butterknife}",
+    kotlin_gradle_plugin: "org.jetbrains.kotlin:kotlin-gradle-plugin:${depsVersion.kotlin}",
+    kotlin_android_extensions: "org.jetbrains.kotlin:kotlin-android-extensions:${depsVersion.kotlin}",
+    kotlin_stdlib: "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${depsVersion.kotlin}",
+    uilib_beike: "com.bk:uilib_beike:${depsVersion.uilib}@aar"
+  ]
+}
